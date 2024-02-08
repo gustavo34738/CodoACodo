@@ -29,7 +29,7 @@ import Juego.Personajes.Personaje;
 public class App {
     
     //IA en fase de prueba:
-    static void iaEnemiga(int danioEnemigo, int danio){
+    static void iaEnemiga(int danioEnemigo, int danio){ 
         System.out.println(ANSI_PURPLE+enemigo.getNombre()+ANSI_RESET     +ANSI_YELLOW+" Esta decidiendo..."+ANSI_RESET);
         if(enemigo.getClase()=="irracional"){
         Random opcion = new Random();
@@ -449,7 +449,7 @@ if(jugador instanceof ClaseAsesino){
     else if (jugador instanceof ClaseMago){
     jugador.setAtaque((int)(jugador.getInteligencia()+jugador.getFuerza())+5);
     jugador.setDefensa((int)(jugador.getAgilidad()*2)+15);
-    jugador.setMana((jugador.getInteligencia()*5)+50);
+    jugador.setMana((jugador.getInteligencia()*5)+49);
     jugador.setVida((int)(jugador.getConstitucion()*2)+40); //borrar en error
     jugador.setAtaqueMagico((int)(jugador.getInteligencia()*2)+10);
     }
