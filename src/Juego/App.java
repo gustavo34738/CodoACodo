@@ -28,7 +28,7 @@ import Juego.Personajes.Personaje;
 
 public class App {
     
-    //intento de IA:
+    //IA en fase de prueba:
     static void iaEnemiga(int danioEnemigo, int danio){
         System.out.println(ANSI_PURPLE+enemigo.getNombre()+ANSI_RESET     +ANSI_YELLOW+" Esta decidiendo..."+ANSI_RESET);
         if(enemigo.getClase()=="irracional"){
